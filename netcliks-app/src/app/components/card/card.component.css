@@ -1,4 +1,8 @@
+:host {
+  width: calc((100% - (30px*2)) / 3);
+}
 .content-cards__item {
+  width: 100%;
 }
 .content-cards__item--img {
   margin-bottom: 12px;
@@ -46,14 +50,20 @@
 }
 
 @media (max-width: 991px) {
-    .content-cards__item {
+  :host {
+    width: calc((100% - (30px*2)) / 2);
+  }
+    /* .content-cards__item {
       width: calc((100% - 30px) / 2);
-    }
+    } */
   }
     
   @media (max-width: 480px) {
-    .content-cards__item {
+    :host {
+      width: 100% ;
+    }
+    /* .content-cards__item {
       width: 100%;
       min-width: 100%;
-    }
+    } */
   }

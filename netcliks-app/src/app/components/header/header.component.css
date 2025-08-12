@@ -7,7 +7,9 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .header-logo {
+    text-decoration: none;
+  }  
   .header-logo h1 {
     margin: 0;
     font-family: Inter, sans-serif;
@@ -15,6 +17,7 @@
     font-weight: 700;
     line-height: 29px;
     text-transform: uppercase;
+    color: #000;
   }
   .header-logo p {
     margin: 0;
@@ -22,6 +25,7 @@
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
+    color: #000;
   }
   .header-controls a {
     color: #000;
